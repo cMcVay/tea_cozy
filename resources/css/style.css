@@ -18,6 +18,7 @@ body {
 	height: 69px;
 	border-bottom: 1px solid seashell;
 	justify-content: space-between;
+ 	background: black;
 }
 
 #logo {
@@ -42,9 +43,40 @@ ul.nav {
 }
 
 .banner {
-	margin-top: 70px;
+	margin: 70px auto 50px auto;
 	display: flex;
-	background-image: src="/resources/img-mission-background.webp";
-	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	background-image: url("../img-mission-background.webp");
+	width: 1200px;
+	height: 700px;
+}
+.bannerText {
 	width: 100%;
+	background: black;
+}
+
+.bannerText h2, h4 {
+	margin: 0;
+	padding: 10px;
+}
+.menu {
+	width: 1000px;
+	margin: auto;
+}
+.gallery {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.item img {
+	height: 200px;
+}
+.item {
+	margin: 10px;
+	width: 300px;
+}
+.item h4 {
+	margin: 0;
+	padding-top: 10px;
 }
