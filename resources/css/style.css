@@ -29,4 +29,19 @@ header {
     flex-direction: row;
     text-decoration: underline;
 }
+.nav p {
+    padding: 5px;
+}
 
+.main {
+    margin-top: 69px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.banner {
+    height: 700px;
+    width: 100%;
+    background-image: url("/resources/img-mission-background.webp");
+    background-size: cover;
+}
