@@ -19,5 +19,7 @@ header {
     padding-left: 10px;
 }
 
-
+.nav {
+    text-decoration: underline;
+}
 
