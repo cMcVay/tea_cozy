@@ -80,3 +80,52 @@ ul.nav {
 	margin: 0;
 	padding-top: 10px;
 }
+.locationsSection {
+	width: 1200px;
+	height: 500px;
+	margin: auto;
+	background-image: url("../img-locations-background.webp");
+	padding-top: 50px;
+}
+.locations {
+	display: flex;
+	width: 100%;
+	flex-flow: row;
+	justify-content: center;
+	text-align: center;
+}
+.itemLocations {
+	background: black;
+	opacity: 1;
+	margin: 15px 40px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+}
+
+ul.address {
+	list-style-type: none;
+	text-align: center;
+	padding-left: 0;
+}
+ul.address h3 {
+	margin:0;
+}
+ul.address li {
+	padding: 15px
+}
+.contact {
+	margin: 0px auto;
+	height: 200px;
+}
+.contact h5 {
+	margin-top: 60px;
+}
+h2 {
+	padding: 0px;
+	margin: 0px;
+}
+.footer {
+	margin: 20px 20px;
+	text-align: left;
+}
